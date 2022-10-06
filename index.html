@@ -82,12 +82,37 @@
                 </div>
                 <div class="modal-body">
                     <div class="container-fluid">
-                        <form></form>
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="loginEmail">Email address</label>
+                                    <input type="email" class="form-control form-control-sm" id="loginEmail"
+                                        placeholder="Enter email">
+                                </div>
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="loginPassword">Password</label>
+                                    <input type="password" class="form-control form-control-sm" id="loginPassword"
+                                        placeholder="Password">
+                                </div>
+                                <div class="col">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox">
+                                        <label class="form-check-label">Remember me</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <button type="button" class="btn btn-secondary btn-sm ml-auto"
+                                    data-dismiss="modal">Cancel</button>
+                                <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <!-- signup modal code below-->
     <div id="signupmodal" class="modal fade" role="dialog">
         <div class="modal-dialog" role="document">
@@ -98,20 +123,83 @@
                 </div>
                 <div class="modal-body">
                     <div class="container-fluid">
-                        <form></form>
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="firstNameSignUp">First name</label>
+                                    <input type="text" class="form-control form-control-sm" id="firstNameSignUp"
+                                        placeholder="First name">
+                                </div>
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="lastNameSignUp">Last name</label>
+                                    <input type="text" class="form-control form-control-sm" id="lastNameSignUp"
+                                        placeholder="Last name">
+                                </div>
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="emailAddressSignUp">Email address</label>
+                                    <input type="email" class="form-control form-control-sm" id="emailAddressSignUp"
+                                        placeholder="Email address">
+                                </div>
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="passwordSignUp">Password</label>
+                                    <input type="password" class="form-control form-control-sm" id="passwordSignUp"
+                                        placeholder="Password">
+                                </div>
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="confirmPasswordSignUp">Confirm password</label>
+                                    <input type="password" class="form-control form-control-sm"
+                                        id="confirmPasswordSignUp" placeholder="Confirm password">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <button type="button" class="btn btn-secondary btn-sm ml-auto"
+                                    data-dismiss="modal">Cancel</button>
+                                <button type="submit" class="btn btn-primary btn-sm ml-1">Create Account</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- carousel code below-->
+    <div class="container">
+        <!-- carousel code below-->
 
-    <!-- services code below-->
-
-    <!-- health benefits code below-->
-
-    <!-- feedback example shown code below-->
+        <!-- services code below-->
+        <div class="row row-content align-items-center">
+            <div class="col-sm-4 order-sm-last col-md-3">
+                <h2 class="text-sm-right">Services Description</h2>
+            </div>
+            <div class="col">
+                <div class="media">
+                    <div class="media-body align-self-center">
+                        <h3>Massage Description?</h3>
+                        <p class="d-none d-sm-block">Description of the different types of massage available as well as
+                            other add-ons</p>
+                    </div>
+                    <img class="d-flex ml-3 img-thumbnail" src="" alt="example image">
+                </div>
+            </div>
+        </div>
+        <!-- health benefits code below-->
+        <div class="row row-content align-items-center">
+            <div class="col-sm-4 order-sm-first col-md-3">
+                <h2 class="text-sm-right">Health Benefits</h2>
+            </div>
+            <div class="col">
+                <div class="media">
+                    <div class="media-body align-self-center">
+                        <h3>Health Benefits or Supplements Advert?</h3>
+                        <p class="d-none d-sm-block">Description of the health benefits of massage and possible
+                            supplements to take for overall health?</p>
+                    </div>
+                    <img class="d-flex ml-3 img-thumbnail" src="" alt="example image">
+                </div>
+            </div>
+        </div>
+        <!-- feedback example shown code below-->
+    </div>
 
     <footer class="site-footer">
         <div class="container">
