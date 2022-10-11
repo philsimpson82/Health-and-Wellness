@@ -50,3 +50,13 @@ header h2 {
 .carousel {
     border: solid #5637DD;
 }
+
+#loginModal .modal-header {
+    background-color: aquamarine;
+    color: black;
+}
+
+#signupModal .modal-header {
+    background-color: aqua;
+    color: black;
+}

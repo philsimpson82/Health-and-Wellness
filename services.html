@@ -44,13 +44,14 @@
             </button>
             <div class="collapse navbar-collapse" id="randwNavbar">
                 <ul class="navbar-nav">
-                    <li class="nav-item active"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i>
+                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i>
                             Home</a>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="about.html"><i class="fa fa-info fa-lg"></i>
                             About</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-info fa-lg"></i> Sevices</a>
+                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-info fa-lg"></i>
+                            Sevices</a>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="contact.html"><i
                                 class="fa fa-address-card fa-lg"></i>
@@ -58,13 +59,13 @@
                     </li>
                 </ul>
                 <span class="navbar-text ml-auto align-self-end">
-                    <a role="button" data-toggle="modal" data-target="#loginmodal"><i class="fa fa-sign-in">
+                    <a role="button" id="loginBtn"><i class="fa fa-sign-in">
                             Login</i>
                     </a>
                 </span>
 
                 <span class="navbar-text ml-4 align-self-end">
-                    <a role="button" data-toggle="modal" data-target="#signupmodal"><i class="fa fa-sign-in">
+                    <a role="button" id="signupBtn"><i class="fa fa-sign-in">
                             Signup</i>
                     </a>
                 </span>
@@ -84,7 +85,7 @@
     </div>
 
     <!-- login modal code below-->
-    <div id="loginmodal" class="modal fade" role="dialog">
+    <div id="loginModal" class="modal fade" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -125,7 +126,7 @@
     </div>
 
     <!-- signup modal code below-->
-    <div id="signupmodal" class="modal fade" role="dialog">
+    <div id="signupModal" class="modal fade" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -203,6 +204,34 @@
                 </div>
             </div>
         </div>
+        <div class="row row-content align-items-center">
+            <div class="col-sm-4 order-sm-first col-md-3">
+                <h2 class="text-sm-right">Another massage type</h2>
+            </div>
+            <div class="col">
+                <div class="media">
+                    <div class="media-body align-self-center">
+                        <h3>Massage Description?</h3>
+                        <p class="d-none d-sm-block">Description of massage</p>
+                    </div>
+                    <img class="d-flex ml-3 img-thumbnail" src="" alt="example image">
+                </div>
+            </div>
+        </div>
+        <div class="row row-content align-items-center">
+            <div class="col-sm-4 order-sm-first col-md-3">
+                <h2 class="text-sm-right">Another massage type</h2>
+            </div>
+            <div class="col">
+                <div class="media">
+                    <div class="media-body align-self-center">
+                        <h3>Massage Description?</h3>
+                        <p class="d-none d-sm-block">Description of massage</p>
+                    </div>
+                    <img class="d-flex ml-3 img-thumbnail" src="" alt="example image">
+                </div>
+            </div>
+        </div>
     </div>
 
     <footer class="site-footer">
@@ -243,6 +272,7 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
 
 </body>
 
