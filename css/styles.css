@@ -9,22 +9,26 @@ h3 {
 }
 
 h2 {
-    color: #9faae4;
+    color: rgb(5, 148, 148);
+}
+
+#navbar-h2 {
+    color: white;
 }
 
 header h2 {
-    color: #CEC8FF;
+    color: black;
 }
 
 .site-footer {
-    background-image: linear-gradient(#CEC8FF, white);
+    background-image: linear-gradient(rgb(111, 223, 186), white);
     padding: 20px 0;
 }
 
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    background-image: linear-gradient(to right, aquamarine, rgb(13, 206, 206), rgb(5, 138, 138));
 }
 
 .row-content {
@@ -34,7 +38,7 @@ header h2 {
 }
 
 .navbar {
-    background-color: #901CAD;
+    background-color: rgb(8, 126, 126);
 }
 
 .tab-content {
@@ -57,7 +61,7 @@ header h2 {
 }
 
 #signupModal .modal-header {
-    background-color: aqua;
+    background-color: aquamarine;
     color: black;
 }
 
@@ -78,4 +82,17 @@ header h2 {
 .gmap_iframe {
     width: 620px !important;
     height: 450px !important;
+}
+
+.btn-create,
+.btn-signin,
+.btn-confirm,
+.btn-book-now {
+    background-color: aquamarine;
+    color: black;
+}
+
+#bookingModal .modal-header {
+    background-color: aquamarine;
+    color: black;
 }
