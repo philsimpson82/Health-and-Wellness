@@ -6,3 +6,4 @@ $(function () {
         $('#signupModal').modal('show');
     });
 });
+
