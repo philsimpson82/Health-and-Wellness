@@ -1,5 +1,8 @@
 body {
     font-family: "Open Sans", sans-serif;
+    background-image: url(/img/English\ Harbor.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 h1,
@@ -28,7 +31,10 @@ header h2 {
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, aquamarine, rgb(13, 206, 206), rgb(5, 138, 138));
+    /*background-image: linear-gradient(to right, aquamarine, rgb(13, 206, 206), rgb(5, 138, 138));*/
+    background-image: url(/img/English\ Harbor.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .row-content {
@@ -68,20 +74,20 @@ header h2 {
 .mapouter {
     position: relative;
     text-align: right;
-    width: 620px;
-    height: 450px;
+    width: 500px;
+    height: 400px;
 }
 
 .gmap_canvas {
     overflow: hidden;
     background: none !important;
-    width: 620px;
-    height: 450px;
+    width: 500px;
+    height: 400px;
 }
 
 .gmap_iframe {
-    width: 620px !important;
-    height: 450px !important;
+    width: 500px !important;
+    height: 400px !important;
 }
 
 .btn-create,
@@ -95,4 +101,11 @@ header h2 {
 #bookingModal .modal-header {
     background-color: aquamarine;
     color: black;
+}
+
+#indexContainer,
+#aboutContainer,
+#servicesContainer,
+#contactContainer {
+    background-color: beige;
 }
