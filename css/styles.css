@@ -1,8 +1,5 @@
 body {
     font-family: "Open Sans", sans-serif;
-    background-image: url(/img/English\ Harbor.jpg);
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 h1,
@@ -24,17 +21,19 @@ header h2 {
 }
 
 .site-footer {
-    background-image: linear-gradient(rgb(111, 223, 186), white);
+    background-image: linear-gradient(rgb(5, 148, 148), rgb(5, 160, 160), white);
     padding: 20px 0;
 }
 
 .jumbotron {
     margin: 0;
     padding: 30px;
-    /*background-image: linear-gradient(to right, aquamarine, rgb(13, 206, 206), rgb(5, 138, 138));*/
-    background-image: url(/img/English\ Harbor.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+    background-image: linear-gradient(to right, aquamarine, rgb(13, 206, 206), rgb(5, 138, 138));
+}
+
+#jumbotron_h1,
+#jumbotron_h2 {
+    color: white;
 }
 
 .row-content {
@@ -61,16 +60,6 @@ header h2 {
     border: solid #5637DD;
 }
 
-#loginModal .modal-header {
-    background-color: aquamarine;
-    color: black;
-}
-
-#signupModal .modal-header {
-    background-color: aquamarine;
-    color: black;
-}
-
 .mapouter {
     position: relative;
     text-align: right;
@@ -90,17 +79,43 @@ header h2 {
     height: 400px !important;
 }
 
+#bookingModal .modal-header,
 .btn-create,
 .btn-signin,
 .btn-confirm,
 .btn-book-now {
-    background-color: aquamarine;
+    background-color: rgb(8, 126, 126);
+    color: white;
+}
+
+.btn-review {
+    background-color: rgb(8, 126, 126);
+    color: white;
+}
+
+.btn-link {
     color: black;
 }
 
-#bookingModal .modal-header {
-    background-color: aquamarine;
+.breadcrumb_home {
+    color: rgb(8, 126, 126);
+}
+
+.link_list {
     color: black;
+}
+
+#loginModal .modal-header,
+#signupModal .modal-header,
+#bookingModal .modal-header {
+    background-color: rgb(8, 126, 126);
+    color: white;
+}
+
+#loginModal .modal-body,
+#signupModal .modal-body,
+#bookingModal .modal-body {
+    background-color: beige;
 }
 
 #indexContainer,
