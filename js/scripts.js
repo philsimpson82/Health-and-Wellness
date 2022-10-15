@@ -8,5 +8,8 @@ $(function () {
     $('#bookingBtn').on('click', function () {
         $('#bookingModal').modal('show');
     });
+    $('#purchaseBtn').on('click', function () {
+        $('#purchaseModal').modal('show');
+    });
 });
 

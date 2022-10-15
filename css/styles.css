@@ -79,16 +79,12 @@ header h2 {
     height: 400px !important;
 }
 
-#bookingModal .modal-header,
 .btn-create,
 .btn-signin,
+.btn-select,
+.btn-review,
 .btn-confirm,
 .btn-book-now {
-    background-color: rgb(8, 126, 126);
-    color: white;
-}
-
-.btn-review {
     background-color: rgb(8, 126, 126);
     color: white;
 }
@@ -105,6 +101,7 @@ header h2 {
     color: black;
 }
 
+#purchaseModal .modal-header,
 #loginModal .modal-header,
 #signupModal .modal-header,
 #bookingModal .modal-header {
@@ -112,6 +109,7 @@ header h2 {
     color: white;
 }
 
+#purchaseModal .modal-body,
 #loginModal .modal-body,
 #signupModal .modal-body,
 #bookingModal .modal-body {
@@ -123,4 +121,10 @@ header h2 {
 #servicesContainer,
 #contactContainer {
     background-color: beige;
+}
+
+.myborder {
+    border-bottom-width: 1px;
+    border-bottom-style: ridge;
+    border-bottom-color: lightgray;
 }
