@@ -8,14 +8,12 @@ h3 {
     font-family: "Lobster", cursive;
 }
 
-h2 {
-    color: rgb(5, 148, 148);
-}
 
 #navbar-h2 {
     color: white;
 }
 
+h2,
 header h2 {
     color: black;
 }
